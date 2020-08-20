@@ -1,5 +1,5 @@
 from gpiozero import LED
-from gpizero import MotionSensor
+from gpiozero import MotionSensor
 
 green_led = LED(17)
 pir = MotionSensor(4)
